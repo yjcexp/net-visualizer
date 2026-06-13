@@ -52,16 +52,14 @@ Python 侧：
 
 ```bash
 conda env create -f environment.yml
-conda activate "/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/.conda/path-link-demo-env"
-cd "/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo"
+conda activate path-link-demo
 npm install
 ```
 
 ## 启动方式
 
 ```bash
-conda activate "/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/.conda/path-link-demo-env"
-cd "/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo"
+conda activate path-link-demo
 npm run dev
 ```
 
@@ -93,7 +91,7 @@ npm run build
 
 颜色映射：
 
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/data/metrics.ts](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/data/metrics.ts)
+- [src/data/metrics.ts](src/data/metrics.ts)
 
 切换逻辑说明：
 
@@ -109,20 +107,20 @@ outlier 规则说明：
 
 主筛选逻辑：
 
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/App.tsx](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/App.tsx)
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/components/Toolbar.tsx](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/components/Toolbar.tsx)
+- [src/App.tsx](src/App.tsx)
+- [src/components/Toolbar.tsx](src/components/Toolbar.tsx)
 
 路径排序与展示：
 
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/App.tsx](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/App.tsx)
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/components/Sidebar.tsx](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/components/Sidebar.tsx)
+- [src/App.tsx](src/App.tsx)
+- [src/components/Sidebar.tsx](src/components/Sidebar.tsx)
 
 地图线宽、偏移、OD 点样式：
 
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createLinkLayer.ts](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createLinkLayer.ts)
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createHighlightedPathLayer.ts](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createHighlightedPathLayer.ts)
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/linkOffset.ts](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/linkOffset.ts)
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createOdPointLayers.ts](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/src/layers/createOdPointLayers.ts)
+- [src/layers/createLinkLayer.ts](src/layers/createLinkLayer.ts)
+- [src/layers/createHighlightedPathLayer.ts](src/layers/createHighlightedPathLayer.ts)
+- [src/layers/linkOffset.ts](src/layers/linkOffset.ts)
+- [src/layers/createOdPointLayers.ts](src/layers/createOdPointLayers.ts)
 
 ## Demo 需要哪些输入文件
 
@@ -245,7 +243,7 @@ demo 用它来判断：
 
 主脚本：
 
-- [/Users/exps/Person Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/scripts/experiment_bundle/build_experiment_bundle.py](/Users/exps/Person%20Materials/Phd-CMU-CEE/2-Research-Materials/Server_code/path-link-visualization-demo/scripts/experiment_bundle/build_experiment_bundle.py)
+- [scripts/experiment_bundle/build_experiment_bundle.py](scripts/experiment_bundle/build_experiment_bundle.py)
 
 示例：
 
